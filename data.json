@@ -1,0 +1,215 @@
+{
+   "Users":[
+      {
+         "Userid":"deo@gmail.com",
+         "passwd":"123454"
+      },
+      {
+         "Userid":"om@ymail.com",
+         "passwd":"234123"
+      },
+      {
+         "Userid":"karan@rediff.mail",
+         "passwd":"890767"
+      },
+      {
+         "Userid":"geet@gmail.com",
+         "passwd":"236509"
+      },
+      {
+         "Userid":"aish@ymail.com",
+         "passwd":"666668"
+      },
+      {
+         "Userid":"sonu@gmail.com",
+         "passwd":"978056"
+      },
+      {
+         "Userid":"raj@infotech.com",
+         "passwd":"321321"
+      },
+      {
+         "Userid":"krish@gmail.com",
+         "passwd":"789789"
+      }
+   ],
+   "products":[
+      {
+         "id":"1",
+         "name":"TV",
+         "list":[
+            {
+               "id":"101",
+               "name":"sanyo",
+               "tvlist":[
+                  {
+                     "name" : "sanyo4",
+                     "img":"view/sanyo4.jpg",
+                     "alt":"123454"
+                  },
+                  {
+                     "name" : "sanyo1",
+                     "img":"view/sanyo1.jpg",
+                     "alt":"123454"
+                  },
+                  {
+                     "name" : "sanyo2",
+                     "img":"view/sanyo2.jpg",
+                     "alt":"123454"
+                  }
+               ]
+            },
+            {
+               "id":"102",
+               "name":"samsung",
+               "tvlist":[
+                  {
+                     "name" : "samsung",
+                     "img":"view/samsung.jpg",
+                     "alt":"123454"
+                  },
+                  {
+                     "name" : "samsung1",
+                     "img":"view/samsung1.jpg",
+                     "alt":"123454"
+                  },
+                  {
+                     "name" : "samsung2",
+                     "img":"view/samsung2.jpg",
+                     "alt":"123454"
+                  }
+               ]
+            },
+            {
+               "id":"103",
+               "name":"tcl",
+               "tvlist":[
+                  {
+                     "name" : "tcl",
+                     "img":"view/tcl.jpg",
+                     "alt":"123454"
+                  },
+                  {
+                     "name" : "tcl1",
+                     "img":"view/tcl1.jpg",
+                     "alt":"123454"
+                  },
+                  {
+                     "name" : "tcl2",
+                     "img":"view/tcl2.jpg",
+                     "alt":"123454"
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "Menu":[
+      {
+         "id":"1",
+         "Name":"Home",
+         "icon":"glyphicon glyphicon-hand-right",
+         "subMenu":[
+            {
+               "id":"101",
+               "Name":"Test Ride",
+               "icon":"fa fa-circle",
+               "link":"test.html"
+            },
+            {
+               "id":"102",
+               "Name":"Price",
+               "icon":"fa fa-circle",
+               "link":"price.html"
+            },
+            {
+               "id":"103",
+               "Name":"Dealer Network",
+               "icon":"fa fa-circle",
+               "link":"dealer.html"
+            },
+            {
+               "id":"104",
+               "Name":"Click to Call",
+               "icon":"fa fa-circle",
+               "link":"call.html"
+            }
+         ]
+      },
+      {
+         "id":"2",
+         "Name":"About Us",
+        "icon":"glyphicon glyphicon-hand-right",
+         "subMenu":[
+            {
+               "id":"101",
+               "Name":"About Two Wheeler",
+               "icon":"fa fa-circle",
+               "link":"logout.html"
+            }
+         ]
+      },
+      {
+         "id":"3",
+         "Name":"Products",
+         "icon":"glyphicon glyphicon-hand-right",
+         "subMenu":[
+            {
+               "id":"101",
+               "Name":"Motorcycle",
+               "icon":"fa fa-circle",
+               "link":"product.html"
+            },
+            {
+               "id":"102",
+               "Name":"Scooter",
+               "icon":"fa fa-circle",
+               "link":"category.html"
+            },
+            {
+               "id":"103",
+               "Name":"Super Bike",
+               "icon":"fa fa-circle",
+               "link":"subcategory.html"
+            },
+            {
+               "id":"104",
+               "Name":"NAVI",
+               "icon":"fa fa-circle",
+               "link":"tags.html"
+            }
+         ]
+      },
+      {
+         "id":"4",
+         "Name":"Services",
+         "icon":"glyphicon glyphicon-hand-right",
+         "subMenu":[
+            {
+               "id":"101",
+               "Name":"Campaign",
+               "icon":"fa fa-circle",
+               "link":"product.html"
+            },
+            {
+               "id":"102",
+               "Name":"Honda Shield",
+               "icon":"fa fa-circle",
+               "link":"category.html"
+            },
+            {
+               "id":"103",
+               "Name":"Honda Genuine Engine Oil",
+               "icon":"fa fa-circle",
+               "link":"subcategory.html"
+            },
+            {
+               "id":"104",
+               "Name":"Honda Genuine Parts",
+               "icon":"fa fa-circle",
+               "link":"tags.html"
+            }
+         ]
+      }
+   ]
+}

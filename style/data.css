@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav{
+  color:black;
+}
+.border-class
+{
+  border: solid black ;
+  margin-top: 10px;
+  margin:30px;
+  padding:10px;
+
+}
+input[type=text],
+input[type=password], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc !important;
+    box-sizing: border-box !important;
+    font-size: 12px;
+}
+.border-class1
+{
+  border: solid black ;
+  margin-top: 100px !important;
+  margin-left: 100px !important;
+  margin:30px;
+  height: 400px !important;
+  width:500px !important;
+  padding:50px;
+  background-color: gray;
+
+}
+.navbar1{
+  display : block;
+  height : 1000px;
+  width : 100px;
+  /* color: black; */
+}
+.li a{
+  padding: 6px 8px 6px 16px;
+  left: 0.5px;
+}
+.bg-dark{
+    color:red;
+}
+.nav-item {
+    color: white;
+}
+.container {
+    padding: 16px;
+}
+.sf-menu{
+  text-align:left;
+  font-size : 20px;
+    padding:10px;
+}
+.div0{
+  color:yellow;
+  padding:25px;
+  font-style: italic;
+}
+.div2{
+  font-size : 14px;
+}
+.select-value{
+    color:white;
+}
+::placeholder {
+    color: white;
+    font-size:12px;
+    text-align:center;
+}
+input[value],
+input[type=password],
+
+}

@@ -1,0 +1,110 @@
+{
+  "Menu":[
+  {
+      "id":"1",
+      "Name":"Home",
+      "icon":"glyphicon glyphicon-hand-right",
+      "subMenu":[
+         {
+            "id":"101",
+            "Name":"Test Ride",
+            "icon":"fa fa-circle",
+            "link":"home/test.html"
+         },
+         {
+            "id":"102",
+            "Name":"Price",
+            "icon":"fa fa-circle",
+            "link":"home/price.html"
+         },
+         {
+            "id":"103",
+            "Name":"Dealer Network",
+            "icon":"fa fa-circle",
+            "link":"home/dealer.html"
+         },
+         {
+            "id":"104",
+            "Name":"Click to Call",
+            "icon":"fa fa-circle",
+            "link":"home/call.html"
+         }
+      ]
+   },
+   {
+      "id":"2",
+      "Name":"About Us",
+     "icon":"glyphicon glyphicon-hand-right",
+      "subMenu":[
+         {
+            "id":"101",
+            "Name":"About Two Wheeler",
+            "icon":"fa fa-circle",
+            "link":"about/logout.html"
+         }
+      ]
+   },
+   {
+      "id":"3",
+      "Name":"Products",
+      "icon":"glyphicon glyphicon-hand-right",
+      "subMenu":[
+         {
+            "id":"101",
+            "Name":"Motorcycle",
+            "icon":"fa fa-circle",
+            "link":"products/product.html"
+         },
+         {
+            "id":"102",
+            "Name":"Scooter",
+            "icon":"fa fa-circle",
+            "link":"products/category.html"
+         },
+         {
+            "id":"103",
+            "Name":"Super Bike",
+            "icon":"fa fa-circle",
+            "link":"products/subcategory.html"
+         },
+         {
+            "id":"104",
+            "Name":"NAVI",
+            "icon":"fa fa-circle",
+            "link":"products/tags.html"
+         }
+      ]
+   },
+   {
+      "id":"4",
+      "Name":"Services",
+      "icon":"glyphicon glyphicon-hand-right",
+      "subMenu":[
+         {
+            "id":"101",
+            "Name":"Campaign",
+            "icon":"fa fa-circle",
+            "link":"services/product.html"
+         },
+         {
+            "id":"102",
+            "Name":"Honda Shield",
+            "icon":"fa fa-circle",
+            "link":"services/category.html"
+         },
+         {
+            "id":"103",
+            "Name":"Honda Genuine Engine Oil",
+            "icon":"fa fa-circle",
+            "link":"services/subcategory.html"
+         },
+         {
+            "id":"104",
+            "Name":"Honda Genuine Parts",
+            "icon":"fa fa-circle",
+            "link":"services/tags.html"
+         }
+      ]
+    }
+  ]
+}

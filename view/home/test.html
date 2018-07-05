@@ -1,0 +1,68 @@
+<div class="container" ng-controller="testCtrl">
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-12 col-lg-12" >
+      <form class="border-class1">
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-12 col-lg-12 bordered" style="font-size:12px;">
+
+            <div class="row">
+              <div class="col-xs-6">
+                <div class="form-group">
+                  <select  style="color:white;background-color:black;" ng-model="selectVehicle" ng-options="VehicleType.Name for VehicleType in VehicleType | orderBy : 'Name'">
+                    <option value="">--Select Vehicle Type--</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <div class="form-group">
+                  <select  style="color:white;background-color:black;" ng-model="selectModel">
+                    <option value="">--Select Vehicle Model--</option>
+                    <option ng-repeat="x in VehicleModel | orderBy : 'Name' | filter : {VehicleType:selectVehicle.Name}">{{ x.Name }}</option>
+                  </select>
+                </div>
+              </div>
+            </div>                             
+
+            <div class="row" style="margin-top:40px">
+              <div class="col-xs-6">
+                  <div class="form-group">
+                    <input type="text" style="width:180px;padding-left:8px;background-color:black;color:white;" name="" value="" placeholder="Enter Name">
+                  </div>
+              </div>
+              <div class="col-xs-6">
+                  <div class="form-group">
+                    <input type="text" style="width:180px;padding-left:8px;background-color:black;color:white;" name="" value="" placeholder="Enter Mobile Number">
+                  </div>
+              </div>
+             </div>
+
+
+          <div class="row" style="margin-top:40px">
+            <div class="col-xs-6">
+              <div class="form-group">
+                <select style="color:white;background-color:black;" ng-model="selectedState" ng-options="State.Name for State in State | orderBy : 'Name'">
+                  <option value="">--Select State--</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-xs-6">
+              <div class="form-group">
+                <select  style="color:white;background-color:black;" ng-model="selectedCity">
+                  <option value="">--Select C                             ity--</option>
+                  <option ng-repeat="x in City | orderBy : 'Name' | filter:{State:selectedState.Name}">{{ x.Name }}</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="row-sm-12" style="margin-top:30px">
+            <div class="col-xs-12">
+              <center><button type="button" style="padding:12px 20px;size:30px;background-color:yellow" name="button">Submit</button></center>
+            </div>
+          </div>
+
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

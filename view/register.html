@@ -1,0 +1,38 @@
+
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-6 col-lg-6" >
+      <form class="border-class">
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-10 col-lg-10 bordered" style="font-size:12px;">
+            <fieldset>
+              <h2><center>LoginForm</center></h2><br>
+              <div class="form-group" ng-show="error">
+                <div class="alert alert-danger">
+                  <strong>Opps!</strong> invalid username and password
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="userName">Username :</label>
+                <input type="text" class="form-control" ng-model="uid" value="" placeholder="Username" id="userName" required>
+              </div>
+              <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input class="form-control"  id="pwd" type="password" ng-model="pwd" value="" placeholder="Password" required>
+              </div>
+              <div class="form-group">
+                <div class="text-center">
+                  <button class="btn btn-info btn-lg" type="button" ng-click="submit()">Login</button><br/>
+                </div>
+              </div>
+              <div class="form-group">
+                  <label>Do you wish to register for a <center><a href="view/register.html">New Account</a> ?</center></label>
+              </div>
+            </fieldset>
+          </form>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+<div class="container-fluid h-100">
+<div class="row h-100">
+<aside class="col-12 col-md-2 p-0 ">
+<div style="height:800px;background-color:black;">
+    <nav class="navbar navbar-expand flex-md-column flex-row align-items-start">
+      <div class="div0">
+        <h1>Gallery</h1>
+      </div>
+        <hr style="height:1px;background-color:white;">
+        <div class="collapse navbar-collapse">
+            <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-between">
+              <div ng-repeat="x in Menu track by $index">
+                  <div style="color:white;font-size:15px">
+                      <div style="padding:10px"><i class="glyphicon glyphicon-hand-right" ng-click="Selectedmenuindex = $index; dwarrow=true;" ng-hide="dwarrow" ></i>
+                          <i class="glyphicon glyphicon-hand-down" ng-click="Selectedmenuindex = -1;dwarrow=false;"ng-show="dwarrow"></i>{{x.Name}}</div>
+                      <div ng-repeat="subMenu in x.subMenu">
+                        <div style="padding-left:10px" ng-show="$parent.$index == Selectedmenuindex" href="#" ng-click="changePage(subMenu.link)"> {{ subMenu.Name }}</div>
+                      </div>
+                  </div>
+              </div>
+            </ul>
+        </div>
+    </nav>
+</div>
+</aside>
+<main class="col">
+          <div class="container">
+              <div class="row">
+                  <div ng-include="pageurl"></div>
+              </div>
+          </div>
+  </main>
+</div>
+</div>
